@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "Dental-App"; ObjectID = "14j-5r-2y6"; */
+"14j-5r-2y6.text" = "Dental-App";
+
+/* Class = "UIViewController"; title = "Choose a Time to Brush"; ObjectID = "8RM-nh-jK9"; */
+"8RM-nh-jK9.title" = "Recordatorios";
+
+/* Class = "UILabel"; text = "How to use your brush?"; ObjectID = "8t9-xE-PHG"; */
+"8t9-xE-PHG.text" = "¿Cómo usar el cepillo dental?";
+
+/* Class = "UIButton"; normalTitle = "Log in with Facebook"; ObjectID = "9kw-Ef-ffd"; */
+"9kw-Ef-ffd.normalTitle" = "Entrar con Facebook";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "ADU-5r-jVa"; */
+"ADU-5r-jVa.title" = "Entrar con correo";
+
+/* Class = "UIButton"; normalTitle = "Watch Video         "; ObjectID = "H4Y-6G-P9S"; */
+"H4Y-6G-P9S.normalTitle" = "Ver Video         ";
+
+/* Class = "UILabel"; text = "Welcome to Dental-App"; ObjectID = "Iih-Yq-XkJ"; */
+"Iih-Yq-XkJ.text" = "Bienvenido a Dental-App";
+
+/* Class = "UILabel"; text = "Log Out"; ObjectID = "IwI-HA-Xgw"; */
+"IwI-HA-Xgw.text" = "Salir";
+
+/* Class = "UIButton"; normalTitle = "＞ Enter"; ObjectID = "LiE-rb-jCl"; */
+"LiE-rb-jCl.normalTitle" = "＞ Entrar";
+
+/* Class = "UINavigationItem"; title = "Reminders"; ObjectID = "MvC-ff-qfd"; */
+"MvC-ff-qfd.title" = "Recordatorios";
+
+/* Class = "UITableViewController"; title = "Reminders"; ObjectID = "PUM-KD-qUy"; */
+"PUM-KD-qUy.title" = "Recordatorios";
+
+/* Class = "UIViewController"; title = "About Dental-App"; ObjectID = "Qi3-L1-OZM"; */
+"Qi3-L1-OZM.title" = "Acerca de Dental-App";
+
+/* Class = "UILabel"; text = "About Dental App"; ObjectID = "Rqb-S6-vO8"; */
+"Rqb-S6-vO8.text" = "Acerca de Dental App";
+
+/* Class = "UILabel"; text = "Alarm"; ObjectID = "TcE-uz-7i2"; */
+"TcE-uz-7i2.text" = "Alerta";
+
+/* Class = "UILabel"; text = "How to use your dental floss?"; ObjectID = "XCz-uW-eml"; */
+"XCz-uW-eml.text" = "¿Cómo usar el hilo dental?";
+
+/* Class = "UILabel"; text = "Enter your e-mail"; ObjectID = "YjW-Qe-gXA"; */
+"YjW-Qe-gXA.text" = "Ingresa tu correo";
+
+/* Class = "UIButton"; normalTitle = "Watch"; ObjectID = "ZmK-zw-nqZ"; */
+"ZmK-zw-nqZ.normalTitle" = "Video";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "aG3-xY-VSo"; */
+"aG3-xY-VSo.normalTitle" = "Agregar";
+
+/* Class = "UILabel"; text = "Why is it important to learn how to brush your teeth?"; ObjectID = "crm-dv-By6"; */
+"crm-dv-By6.text" = "¿Por qué es importante aprender a lavarse los dientes?";
+
+/* Class = "UIButton"; normalTitle = "Sign in with E-mail"; ObjectID = "cuy-lN-3Mj"; */
+"cuy-lN-3Mj.normalTitle" = "Entrar con correo";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "ebG-fs-wbz"; */
+"ebG-fs-wbz.placeholder" = "E-mail";
+
+/* Class = "UILabel"; text = "The app that shows you how to improve your dental health every day."; ObjectID = "h08-6O-Sp0"; */
+"h08-6O-Sp0.text" = "La aplicación que te enseña cómo mejorar tu salud bucal día a día.";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "hBJ-WU-Cia"; */
+"hBJ-WU-Cia.text" = "tiempo";
+
+/* Class = "UIButton"; normalTitle = "Watch Video         "; ObjectID = "pLT-KP-yIe"; */
+"pLT-KP-yIe.normalTitle" = "Ver Video         ";
+
+/* Class = "UITableViewController"; title = "More"; ObjectID = "wfD-JX-oMa"; */
+"wfD-JX-oMa.title" = "Más";
+
+/* Class = "UILabel"; text = "Why is it important to learn how to brush your teeth?"; ObjectID = "yap-oZ-kFi"; */
+"yap-oZ-kFi.text" = "¿Es importante aprender a lavarse los dientes?";
