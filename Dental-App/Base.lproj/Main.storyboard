@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FKp-47-JaH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FKp-47-JaH">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -22,7 +22,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why is it important to learn how to brush your teeth?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yap-oZ-kFi">
                                 <rect key="frame" x="0.0" y="64" width="268" height="41"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="42x-dm-sQb"/>
                                     <constraint firstAttribute="width" constant="268" id="hu5-cH-FmT"/>
@@ -33,7 +32,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZmK-zw-nqZ">
                                 <rect key="frame" x="269" y="69" width="44" height="30"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ncw-DC-du8"/>
                                     <constraint firstAttribute="width" constant="44" id="u8J-re-LiH"/>
@@ -47,7 +45,6 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to use your brush?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8t9-xE-PHG">
                                 <rect key="frame" x="0.0" y="104" width="320" height="232.5"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -55,7 +52,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to use your dental floss?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCz-uW-eml">
                                 <rect key="frame" x="0.0" y="335" width="320" height="232.5"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -63,7 +59,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLT-KP-yIe">
                                 <rect key="frame" x="79" y="255.5" width="162" height="49"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="egT-W3-RoJ"/>
@@ -79,7 +74,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4Y-6G-P9S">
                                 <rect key="frame" x="79" y="486.5" width="162" height="48"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="5Qf-FK-ggC"/>
@@ -95,7 +89,6 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="brush" translatesAutoresizingMaskIntoConstraints="NO" id="o4y-cv-JmM">
                                 <rect key="frame" x="114" y="113" width="92" height="92.5"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="87" id="GC7-qY-u30"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="87" id="HW5-nV-Dig"/>
@@ -110,7 +103,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floss" translatesAutoresizingMaskIntoConstraints="NO" id="NEi-HP-GI5">
                                 <rect key="frame" x="115.5" y="346.5" width="90" height="90"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="87" id="3Da-wD-ASS"/>
                                     <constraint firstAttribute="height" constant="87" id="Bet-hg-OKe"/>
@@ -125,7 +117,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play_blue" translatesAutoresizingMaskIntoConstraints="NO" id="d9S-7p-Eaa">
                                 <rect key="frame" x="195" y="262.5" width="36" height="36"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="EM1-bS-72V"/>
                                     <constraint firstAttribute="height" constant="36" id="pfD-5b-dvk"/>
@@ -133,14 +124,12 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play_green" translatesAutoresizingMaskIntoConstraints="NO" id="fmH-ye-Jw6">
                                 <rect key="frame" x="195" y="492.5" width="36" height="36"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="65v-WF-3m3"/>
                                     <constraint firstAttribute="height" constant="36" id="trR-96-vaA"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8t9-xE-PHG" firstAttribute="top" secondItem="o4y-cv-JmM" secondAttribute="bottom" constant="-96" id="3AB-ly-Wve"/>
@@ -197,7 +186,7 @@
                         <barButtonItem key="rightBarButtonItem" image="clock_gray" style="done" id="bk2-KG-Rha">
                             <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <connections>
-                                <segue destination="fny-Fv-dhZ" kind="show" id="3Ab-rD-46j"/>
+                                <segue destination="PUM-KD-qUy" kind="show" id="xDD-YL-19x"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -211,24 +200,6 @@
             </objects>
             <point key="canvasLocation" x="326" y="317"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="aga-Ia-Djq">
-            <objects>
-                <navigationController id="fny-Fv-dhZ" sceneMemberID="viewController">
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5aO-af-bgn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="PUM-KD-qUy" kind="relationship" relationship="rootViewController" id="S9r-4D-lsu"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Kr-jE-TAI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="739" y="317"/>
-        </scene>
         <!--More-->
         <scene sceneID="XxD-B1-d9v">
             <objects>
@@ -236,7 +207,6 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jhs-UX-V5L">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection id="KKf-Go-LKt">
@@ -250,15 +220,12 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why is it important to learn how to brush your teeth?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crm-dv-By6">
                                                     <rect key="frame" x="8" y="11" width="304" height="21"/>
-                                                    <animations/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <animations/>
                                         </tableViewCellContentView>
-                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="7gX-Q4-CUw">
                                         <rect key="frame" x="0.0" y="143" width="320" height="44"/>
@@ -269,15 +236,12 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Dental App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqb-S6-vO8">
                                                     <rect key="frame" x="8" y="11" width="255" height="21"/>
-                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <animations/>
                                         </tableViewCellContentView>
-                                        <animations/>
                                         <connections>
                                             <segue destination="Qi3-L1-OZM" kind="show" id="S0i-Z2-VFw"/>
                                         </connections>
@@ -291,15 +255,12 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log Out" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IwI-HA-Xgw">
                                                     <rect key="frame" x="8" y="11" width="242" height="21"/>
-                                                    <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <animations/>
                                         </tableViewCellContentView>
-                                        <animations/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -329,7 +290,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RLg-B4-XpN">
                                 <rect key="frame" x="16" y="340" width="288" height="195"/>
-                                <animations/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Has escuchado hablar del proverbio Chino "Regala un pescado a un hombre y le darás alimento para un día, enseñale a pescar y lo alimentarás para el resto de su vida"
@@ -348,14 +308,11 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img.dentista" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-rD-4Yb">
                                 <rect key="frame" x="0.0" y="140" width="320" height="192"/>
-                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_blue" translatesAutoresizingMaskIntoConstraints="NO" id="frT-1J-HhY">
                                 <rect key="frame" x="16" y="72" width="288" height="60"/>
-                                <animations/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RLg-B4-XpN" firstAttribute="top" secondItem="zrc-rD-4Yb" secondAttribute="bottom" constant="8" symbolic="YES" id="4VB-Ni-lWg"/>
@@ -384,7 +341,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="hoR-2u-TiD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="alarmCell" textLabel="TcE-uz-7i2" detailTextLabel="hBJ-WU-Cia" style="IBUITableViewCellStyleValue1" id="s2Z-Je-ebt">
@@ -397,7 +353,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Alarm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TcE-uz-7i2">
                                             <rect key="frame" x="15" y="12" width="42.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -405,15 +360,12 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hBJ-WU-Cia">
                                             <rect key="frame" x="273" y="12" width="32" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -426,7 +378,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="3KH-wC-wNV">
                                 <rect key="frame" x="282" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -440,7 +391,7 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZA2-u1-aJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1125" y="317"/>
+            <point key="canvasLocation" x="905" y="317"/>
         </scene>
         <!--Choose a Time to Brush-->
         <scene sceneID="P2j-g8-q73">
@@ -456,14 +407,12 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                         <subviews>
                             <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Koc-P4-wBa">
                                 <rect key="frame" x="0.0" y="64" width="320" height="162"/>
-                                <animations/>
                                 <date key="date" timeIntervalSinceReferenceDate="458199282.07060301">
                                     <!--2015-07-10 05:34:42 +0000-->
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aG3-xY-VSo">
                                 <rect key="frame" x="137" y="234" width="37" height="30"/>
-                                <animations/>
                                 <state key="normal" title="Enter">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -472,7 +421,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aG3-xY-VSo" firstAttribute="leading" secondItem="LRO-tD-An5" secondAttribute="leading" constant="137" id="3Y8-j0-T3Z"/>
@@ -498,7 +446,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KoK-8h-LFe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="aIE-Rn-ALI"/>
@@ -522,13 +469,11 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ebG-fs-wbz">
                                 <rect key="frame" x="60" y="180" width="207" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiE-rb-jCl">
                                 <rect key="frame" x="60" y="234" width="207" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <state key="normal" title="＞ Enter">
@@ -541,7 +486,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your e-mail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YjW-Qe-gXA">
                                 <rect key="frame" x="18" y="107" width="284" height="52"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="9DA-yq-Dbe"/>
                                 </constraints>
@@ -550,7 +494,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="YjW-Qe-gXA" secondAttribute="trailing" constant="2" id="P0Z-at-ced"/>
@@ -577,7 +520,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kyh-Yh-UMm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="cBw-8C-vAJ" kind="relationship" relationship="rootViewController" id="Zgx-LL-x9c"/>
@@ -601,11 +543,9 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ukd-7c-ZjO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kw-Ef-ffd">
                                 <rect key="frame" x="35" y="391" width="250" height="43"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="iSJ-CI-bSG"/>
@@ -621,7 +561,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Dental-App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iih-Yq-XkJ">
                                 <rect key="frame" x="16" y="200" width="288" height="38"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="a27-iF-Qqx"/>
                                 </constraints>
@@ -631,7 +570,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The app that shows you how to improve your dental health every day." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h08-6O-Sp0">
                                 <rect key="frame" x="48" y="244" width="224" height="80"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="4yo-7E-olu"/>
                                 </constraints>
@@ -641,7 +579,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuy-lN-3Mj">
                                 <rect key="frame" x="35" y="448" width="250" height="43"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="lVD-cl-IMt"/>
@@ -657,7 +594,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="o86-ON-kYa">
                                 <rect key="frame" x="57" y="400" width="25" height="25"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="IxZ-SE-oSj"/>
                                     <constraint firstAttribute="height" constant="25" id="ox1-Uz-3Kw"/>
@@ -665,7 +601,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="GE0-Rj-8Wf">
                                 <rect key="frame" x="57" y="457" width="25" height="25"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="2mq-7p-TuW"/>
                                     <constraint firstAttribute="width" constant="25" id="s58-6R-Il7"/>
@@ -673,7 +608,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.dentalapp" translatesAutoresizingMaskIntoConstraints="NO" id="C5l-p8-b3w">
                                 <rect key="frame" x="36" y="114" width="71" height="73"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="71" id="8j5-HA-zJF"/>
                                     <constraint firstAttribute="height" constant="73" id="bGX-L1-eVj"/>
@@ -681,7 +615,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dental-App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14j-5r-2y6">
                                 <rect key="frame" x="115" y="125" width="157" height="52"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="157" id="J8f-ry-Llu"/>
                                     <constraint firstAttribute="height" constant="52" id="pHg-1O-nUq"/>
@@ -691,7 +624,6 @@ DentalApp considera que esta enseñanza es la base para formar una comunidad res
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="868-cx-rKE" firstAttribute="top" secondItem="ukd-7c-ZjO" secondAttribute="bottom" id="8lE-nQ-aPe"/>

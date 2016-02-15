@@ -10,6 +10,7 @@ import UIKit
 import Parse
 import Bolts
 import MediaPlayer
+import ParseFacebookUtilsV4
 
 
 @UIApplicationMain
@@ -33,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // # LocalNotifications
         if(UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:"))) {
-            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil))        }
+            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound , UIUserNotificationType.Alert , UIUserNotificationType.Badge], categories: nil))        }
         else { //do iOS 7 stuff, which is pretty much nothing for local notifications.
         }
         
@@ -42,9 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
- 
+    // Changed for XCode 7 - Swift 2
     
-    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> Int {
+    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> UIInterfaceOrientationMask {
         //If the video is being presented, let the user change orientation, otherwise don't.
         if var presentedViewController = window?.rootViewController?.presentedViewController {
             // Get the controller on the top of the stack
@@ -53,10 +54,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             
             if (presentedViewController.isKindOfClass(MPMoviePlayerViewController) && !presentedViewController.isBeingDismissed()) {
-                return Int(UIInterfaceOrientationMask.AllButUpsideDown.rawValue)
+                return UIInterfaceOrientationMask.AllButUpsideDown
             }
         }
-        return Int(UIInterfaceOrientationMask.Portrait.rawValue)
+        return UIInterfaceOrientationMask.Portrait
     }
     
     

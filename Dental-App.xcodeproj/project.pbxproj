@@ -24,7 +24,6 @@
 		40A2FB631B76897600FC861F /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40A2FB611B76873D00FC861F /* video1.mp4 */; };
 		40A2FB641B76897D00FC861F /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40A2FB621B76873D00FC861F /* video2.mp4 */; };
 		40AE85091B4B62D10091D6B2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE85071B4B62D10091D6B2 /* Bolts.framework */; };
-		40AE850A1B4B62D10091D6B2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE85081B4B62D10091D6B2 /* Parse.framework */; };
 		40AE850C1B4B62FD0091D6B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE850B1B4B62FD0091D6B2 /* AudioToolbox.framework */; };
 		40AE850E1B4B63010091D6B2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE850D1B4B63010091D6B2 /* CFNetwork.framework */; };
 		40AE85101B4B63050091D6B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE850F1B4B63050091D6B2 /* CoreGraphics.framework */; };
@@ -38,7 +37,6 @@
 		40AE85201B4B63410091D6B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE851F1B4B63410091D6B2 /* libsqlite3.dylib */; };
 		40AE85221B4B64B30091D6B2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE85211B4B64B30091D6B2 /* FBSDKCoreKit.framework */; };
 		40AE85261B4B76370091D6B2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AE85251B4B76370091D6B2 /* Test.m */; };
-		40AE852A1B4B78C00091D6B2 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE85291B4B78C00091D6B2 /* ParseFacebookUtilsV4.framework */; };
 		40AE852C1B4B7E230091D6B2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE852B1B4B7E230091D6B2 /* FBSDKLoginKit.framework */; };
 		40AE852E1B4B7E510091D6B2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE852D1B4B7E510091D6B2 /* FBSDKShareKit.framework */; };
 		40E88FBE1B2EB02D0086822D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E88FBD1B2EB02D0086822D /* AppDelegate.swift */; };
@@ -47,7 +45,7 @@
 		40E88FC51B2EB02D0086822D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E88FC41B2EB02D0086822D /* Images.xcassets */; };
 		40E88FC81B2EB02D0086822D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E88FC61B2EB02D0086822D /* LaunchScreen.xib */; };
 		40E88FD41B2EB02D0086822D /* Dental_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E88FD31B2EB02D0086822D /* Dental_AppTests.swift */; };
-		7508D9455CBCE79F3C680A0D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460C2D8D2F991141F00270E4 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7508D9455CBCE79F3C680A0D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460C2D8D2F991141F00270E4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +79,6 @@
 		40A2FB611B76873D00FC861F /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		40A2FB621B76873D00FC861F /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		40AE85071B4B62D10091D6B2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		40AE85081B4B62D10091D6B2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		40AE850B1B4B62FD0091D6B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		40AE850D1B4B63010091D6B2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		40AE850F1B4B63050091D6B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,8 +107,8 @@
 		40E88FD21B2EB02D0086822D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E88FD31B2EB02D0086822D /* Dental_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dental_AppTests.swift; sourceTree = "<group>"; };
 		460C2D8D2F991141F00270E4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B02B56219F20F2F23B9AD55 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D5C478354225A86995AA8518 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		96862AFD4DE8E54EFBA62C4F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AFEB5B485F1079B01251193B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +127,9 @@
 				40AE85141B4B63140091D6B2 /* MobileCoreServices.framework in Frameworks */,
 				40AE85121B4B630F0091D6B2 /* CoreLocation.framework in Frameworks */,
 				40AE85101B4B63050091D6B2 /* CoreGraphics.framework in Frameworks */,
-				40AE852A1B4B78C00091D6B2 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				40AE850E1B4B63010091D6B2 /* CFNetwork.framework in Frameworks */,
 				40AE850C1B4B62FD0091D6B2 /* AudioToolbox.framework in Frameworks */,
 				40AE85221B4B64B30091D6B2 /* FBSDKCoreKit.framework in Frameworks */,
-				40AE850A1B4B62D10091D6B2 /* Parse.framework in Frameworks */,
 				40AE852C1B4B7E230091D6B2 /* FBSDKLoginKit.framework in Frameworks */,
 				40AE85091B4B62D10091D6B2 /* Bolts.framework in Frameworks */,
 				7508D9455CBCE79F3C680A0D /* Pods.framework in Frameworks */,
@@ -151,15 +146,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		039C89568ED33D16B9E6120D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5C478354225A86995AA8518 /* Pods.debug.xcconfig */,
-				5B02B56219F20F2F23B9AD55 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		403BA7D11B5357A1001ED28A /* Multimedia */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +194,6 @@
 				40AE850D1B4B63010091D6B2 /* CFNetwork.framework */,
 				40AE850B1B4B62FD0091D6B2 /* AudioToolbox.framework */,
 				40AE85071B4B62D10091D6B2 /* Bolts.framework */,
-				40AE85081B4B62D10091D6B2 /* Parse.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,8 +204,8 @@
 				40E88FBA1B2EB02D0086822D /* Dental-App */,
 				40E88FD01B2EB02D0086822D /* Dental-AppTests */,
 				40E88FB91B2EB02D0086822D /* Products */,
-				039C89568ED33D16B9E6120D /* Pods */,
 				A09CEB92F4D02E9FCD645675 /* Frameworks */,
+				F1733472DECF04F844800D8A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,6 +279,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F1733472DECF04F844800D8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFEB5B485F1079B01251193B /* Pods.debug.xcconfig */,
+				96862AFD4DE8E54EFBA62C4F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -342,12 +336,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Dental-App";
 				TargetAttributes = {
 					40E88FB71B2EB02D0086822D = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 642PKGNYA5;
+						DevelopmentTeam = NRGVNZJJMC;
 					};
 					40E88FCC1B2EB02D0086822D = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -537,6 +531,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -599,7 +594,7 @@
 		};
 		40E88FD81B2EB02D0086822D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5C478354225A86995AA8518 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = AFEB5B485F1079B01251193B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -612,6 +607,7 @@
 				INFOPLIST_FILE = "Dental-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dentalapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dental-App/Dental-App-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -620,7 +616,7 @@
 		};
 		40E88FD91B2EB02D0086822D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B02B56219F20F2F23B9AD55 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 96862AFD4DE8E54EFBA62C4F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -633,6 +629,7 @@
 				INFOPLIST_FILE = "Dental-App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dentalapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dental-App/Dental-App-Bridging-Header.h";
 			};
@@ -652,6 +649,7 @@
 				);
 				INFOPLIST_FILE = "Dental-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dentalapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental-App.app/Dental-App";
 			};
@@ -667,6 +665,7 @@
 				);
 				INFOPLIST_FILE = "Dental-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dentalapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental-App.app/Dental-App";
 			};

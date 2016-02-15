@@ -51,9 +51,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate  {
     
     
     func register() {
-        let username = usernameField.text.lowercaseString
+        let username = usernameField.text!.lowercaseString
         
-        if count(username) == 0 {
+        if username.characters.count == 0 {
             ProgressHUD.showError(NSLocalizedString("Email field is empty.", comment: "empty field at loginscreen"))
             return
         }
@@ -63,13 +63,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate  {
         PFAnonymousUtils.logInWithBlock {
             (user: PFUser?, error: NSError?) -> Void in
             if error != nil || user == nil {
-                println("Anonymous login failed.")
-                if let userInfo = error!.userInfo {
+               print("Anonymous login failed.")
+                if let userInfo = error?.userInfo {
                     ProgressHUD.showError(userInfo["error"] as! String)
                 }
             } else {
-                println("Anonymous user logged in.")
-                println("Saving email information")
+                print("Anonymous user logged in.")
+                print("Saving email information")
                 var user = PFUser.currentUser()
                //user?[PF_USER_USERNAME] = username
                 user?[PF_USER_CONTACTEMAIL] = username
@@ -79,10 +79,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate  {
                         self.dismissViewControllerAnimated(true, completion: nil)
                     } else {
                         PFUser.logOut()
-                        if let info = error!.userInfo {
+                        if let info = error?.userInfo {
                             ProgressHUD.showError("Login error")
-                            println(error!.code)
-                            println(info["error"] as! String)
+                            print(error!.code)
+                            print(info["error"] as! String)
                         }
                     }
                 })

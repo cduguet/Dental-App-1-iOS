@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import ParseFacebookUtilsV4
 
 class WelcomeViewController: UIViewController {
 
@@ -44,14 +45,14 @@ class WelcomeViewController: UIViewController {
             if let user = user {
                 if user.isNew {
                     self.userLoggedIn(user)
-                    println("User signed up and logged in through Facebook!")
+                    print("User signed up and logged in through Facebook!")
                 } else {
                     self.userLoggedIn(user)
-                    println("User logged in through Facebook!")
+                    print("User logged in through Facebook!")
                 }
             } else {
                 ProgressHUD.showError(NSLocalizedString("Facebook sign in error", comment: "Error logging in facebook"))
-                println("Uh oh. The user cancelled the Facebook login.")
+                print("Uh oh. The user cancelled the Facebook login.")
             }
         }
         

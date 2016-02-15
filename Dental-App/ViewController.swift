@@ -53,7 +53,7 @@ class ViewController: UIViewController, UIActionSheetDelegate {
     @IBAction func brushButtonClicked(sender: AnyObject) {
         //self.performSegueWithIdentifier("playerSegue", sender: self)
         let path = NSBundle.mainBundle().pathForResource("video1", ofType:"mp4")
-        println(path)
+        print(path)
         let url = NSURL.fileURLWithPath(path!)
         movieViewController = MPMoviePlayerViewController(contentURL: url)
         self.presentMoviePlayerViewControllerAnimated(movieViewController)

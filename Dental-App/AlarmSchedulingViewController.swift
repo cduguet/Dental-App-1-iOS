@@ -26,9 +26,9 @@ class AlarmSchedulingViewController: UIViewController {
         let alarmItem = AlarmItem(time: timePicker.date, title: "Alarm", UUID: NSUUID().UUIDString)
         AlarmList.sharedInstance.addItem(alarmItem) // schedule a local notification to persist this item
         
-        var prev_alarm: AlarmItem =  AlarmItem(time: NSDate.new(), title: "Alarm", UUID: alarmID)
+        var prev_alarm: AlarmItem =  AlarmItem(time: NSDate(), title: "Alarm", UUID: alarmID)
         AlarmList.sharedInstance.removeItem(prev_alarm)
-        self.navigationController?.popToRootViewControllerAnimated(true) // return to list view
+        self.navigationController?.popViewControllerAnimated(true);     // return to list view
     }
     
     override func didReceiveMemoryWarning() {

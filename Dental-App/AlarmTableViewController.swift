@@ -50,10 +50,10 @@ class AlarmTableViewController: UITableViewController {
                 case .Default:
                     self.performSegueWithIdentifier("editAlarmSegue", sender: nil)
                 case .Cancel:
-                    println("cancel")
+                    print("cancel")
                     
                 case .Destructive:
-                    println("destructive")
+                    print("destructive")
                 }
             }))
             self.presentViewController(alertController, animated: true, completion: nil)

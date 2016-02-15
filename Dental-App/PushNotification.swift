@@ -1,10 +1,10 @@
-//
-//  PushNotification.swift
-//  SwiftParseChat
-//
-//  Created by Jesse Hu on 2/22/15.
-//  Copyright (c) 2015 Jesse Hu. All rights reserved.
-//
+////
+////  PushNotification.swift
+////  SwiftParseChat
+////
+////  Created by Jesse Hu on 2/22/15.
+////  Copyright (c) 2015 Jesse Hu. All rights reserved.
+////
 
 import Foundation
 import Parse
@@ -16,7 +16,7 @@ class PushNotication {
         installation[PF_INSTALLATION_USER] = PFUser.currentUser()
         installation.saveInBackgroundWithBlock { (succeeded, error) -> Void in
             if error != nil {
-                println("parsePushUserAssign save error.")
+                print("parsePushUserAssign save error.")
             }
         }
     }
@@ -26,7 +26,7 @@ class PushNotication {
         installation.removeObjectForKey(PF_INSTALLATION_USER)
         installation.saveInBackgroundWithBlock { (succeeded, error) -> Void in
             if error != nil {
-                println("parsePushUserResign save error")
+                print("parsePushUserResign save error")
             }
         }
     }
@@ -46,7 +46,7 @@ class PushNotication {
         push.setMessage(text)
         push.sendPushInBackgroundWithBlock { (succeeded, error) -> Void in
             if error != nil {
-                println("sendPushNotification error")
+                print("sendPushNotification error")
             }
         }
     }
